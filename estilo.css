@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+}
+header{
+    background-image: url(./imagens/Header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    
+}
+header  h1{
+     background-color: rgb(233, 226, 217);
+     margin : 0;
+     font-size: large;
+}
+header  h2 {
+    background-color: rgb(201, 191, 178);
+    margin-left: 1%;
+    padding-left: 1%;
+
+}
+header > p {
+    margin: 0;
+    color: rgb(230, 211, 211) ;
+    padding: 0 0 1% 1% ;
+}
+/*Navegação: interação direcional*/
+nav{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1%;
+    
+}
+nav h1 {
+    color: white;
+    margin-left:  1%;
+}
+nav a {
+    color: black;
+    text-size-adjust: 20px;
+    text-decoration: none;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    margin: 0.5%;
+    border-radius: 25px;
+     
+}
+nav a:hover {
+    text-decoration: none;
+    padding: 1%;
+    background-color: rgb(255, 1, 1);
+    border-radius: 25px;
+}
+/* Seções das respectivas direções*/
+section{
+    background-color: rgb(0, 0, 0);
+    padding-left: 1%;
+    padding: 2.5%;
+    border-color: aliceblue;
+}
+
+section h1{
+    background-color: rgb(255, 255, 255);
+    width:fit-content ;
+    padding: 10px;
+    border-radius: 10px; 
+    margin: 0;
+}
+section p{
+   background-color: whitesmoke;
+   padding: 1%;
+   border-radius: 10px;
+}
+#equipamentos p {
+    display: block;
+    margin-bottom: 2%;
+}
+#equipamentos div{
+    text-align: center;
+    display: inline-block;
+    justify-content: space-around;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width:15%;
+    margin: 0.5%;
+    
+}
+#equipamentos div:hover{
+    text-align: center;
+    display: inline-block;
+    justify-content: space-around;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    width:15%;
+    margin: 0.5%;
+}
+footer{
+    background-color:  rgb(201, 191, 178);
+    height: 100px;
+    align-items:baseline
+}
+footer > a{
+    color: aliceblue;
+    font-size: 32px;
+    background-color: rgb(0, 0, 0);
+    text-decoration: dashed;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {  
+    header h1{
+     font-size: large;
+   }
+   header h2{
+      padding-left: 4% ;
+   }
+   header > p {
+    padding: 4%;
+    font-size: small;
+}
+
+  nav{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1%;
+    
+}
+nav h1 {
+    padding-left:3%;
+    font-size: medium;
+}
+nav a {
+    font-size: medium;
+    padding-left: 4%;
+    border-radius: 0px;
+     
+}
+nav a:hover{
+    font-size: medium;
+    padding-left: 4%;
+    border-radius: 0px;
+}
+section{
+    font-size: x-small;
+    font-weight: 700;
+}
+
+section h1{
+    background-color: rgb(255, 255, 255);
+    width:fit-content ;
+    padding: 10px;
+    border-radius: 10px; 
+    margin: 0;
+}
+section p{
+   background-color: whitesmoke;
+   padding: 2%;
+   border-radius: 0px;
+
+}
+#equipamentos p {
+    display: block;
+    margin-bottom: 5%;
+}
+#equipamentos div{
+   
+    display: inline-block;
+    width: 45%;
+    margin: 1%;
+
+}
+#equipamentos div:hover{
+    display: inline-block;
+    width: 45%;
+    margin: 1%;
+}
+
+}   
+@media screen and (max-width: 380px) { 
+    
+#equipamentos div{
+   
+        display: inline-block;
+        width: 50%;
+        margin: 1%;
+}
+#equipamentos div:hover{
+    display: inline-block;
+    width: 50%;
+    margin: 1%;
+}
+
+}
+@media screen and (min-width: 820px){
+
+    section p{
+        font-weight: 600;
+    }
+    #equipamentos div{
+   
+        display: inline-block;
+        width: 35%;
+        margin: 1%;
+}
+#equipamentos div:hover{
+    display: inline-block;
+    width: 35%;
+    margin: 1%;
+}
+@media screen and (max-width: 912px){
+
+    section p{
+        font-weight: 600;
+    }
+    #equipamentos div{
+   
+        display: inline-block;
+        width: 35%;
+        margin: 1%;
+}
+#equipamentos div:hover{
+    display: inline-block;
+    width: 35%;
+    margin: 1%;
+}
+}}
